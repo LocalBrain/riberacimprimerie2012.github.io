@@ -151,7 +151,7 @@ nav {
     padding: 18px 18px;
 }
 
-ul li {
+nav ul li {
     list-style-type: none;
     padding: 8px 18px;
     display: inline-block;
@@ -294,7 +294,7 @@ main {
     text-align: center;
 }
 
-.div2 {
+main div {
     height: 433px;
     margin: auto;
 }
@@ -526,5 +526,29 @@ main h4 {
     #arrow-up img {
         width: 10%;
         margin: auto;
+    }
+
+    footer p,
+    footer i,
+    footer a {
+        font-size: 1.4rem;
+    }
+
+    #contact h3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    nav ul li {
+        list-style-type: none;
+        padding: 8px 8px;
+        display: inline-block;
+        justify-content: center;
+        font-family: "principal-font", 'Ubuntu', sans-serif;
+        font-size: rem;
+        font-weight: 400;
+        letter-spacing: 1px;
     }
 }
