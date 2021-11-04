@@ -558,4 +558,18 @@ main h4 {
     iframe {
         width: 100%;
     }
+
+    nav ul li {
+        list-style-type: none;
+        padding: 8px 2px;
+        display: inline-block;
+        justify-content: center;
+        font-family: "principal-font", 'Ubuntu', sans-serif;
+        font-size: rem;
+        font-weight: 200;
+    }
+
+    header img {
+        height: 200px;
+    }
 }
