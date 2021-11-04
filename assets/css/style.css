@@ -549,3 +549,13 @@ main h4 {
         letter-spacing: 1px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    #container {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
